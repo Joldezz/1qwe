@@ -1,0 +1,82 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Joldezz/Joldezz/main/wallyslibary')))() --Библеотека.
+
+local w = library:CreateWindow("Joldezz Menu") --Создает окно.
+
+local b = w:CreateFolder("Doomspire Brickbattle") --Создает видвужную папку.
+
+b:Label("Miscellaneous",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+b:Bind("Fly",Enum.KeyCode.E,function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/phV2U4rU", true))()
+end)
+
+b:Bind("Health",Enum.KeyCode.R,function()
+ game.Players.LocalPlayer.Character.Humanoid.Health = 100
+end)
+
+b:Label("Teleport",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+
+ b:Button("Colored Bridge",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 4.06941795, 135.61142, 0.66784817))
+end)
+
+b:Button("Green Up",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 2.20784783, 129.199905, -164.964493))
+end)
+
+b:Button("Green Under",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 0.00403382257, 24.7999821, -132.050903))
+end)
+
+b:Button("Blue Up",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( -0.515692711, 129.199905, 156.675674))
+end)
+
+b:Button("Blue Under",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 0.118817508, 24.8000011, 130.977081))
+end)
+
+b:Button("Yellow Up",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 157.600845, 129.19986, 0.902768791))
+end)
+
+b:Button("Yellow Under",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 134.623016, 26.5525284, -1.44208014))
+end)
+
+b:Button("Red Up",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( -158.85405, 129.199905, 0.269176155))
+end)
+
+b:Button("Red Under",function()
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( 31.7317371, 419.5, -32.2957268))
+ wait(1)
+ game.Players.LocalPlayer.Character:MoveTo(Vector3.new( -133.192734, 23.6000385, -1.33520651))
+end)
