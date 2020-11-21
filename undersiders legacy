@@ -1,0 +1,223 @@
+  
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "JOLDEZZ MENU",
+Text = "LOADING"
+})
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "JOLDEZZ MENU",
+Text = "LOADING SUCESSFULL"
+})
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Joldezz/Joldezz/main/wallyslibary')))() --Библеотека.
+
+local w = library:CreateWindow("Miscellaneous") --Создает окно.
+
+local b = w:CreateFolder("Joldezz Menu") --Создает видвужную папку.
+
+b:Label("Activate E",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+b:Button("Fly",function()
+  loadstring(game:HttpGet("https://pastebin.com/raw/phV2U4rU", true))()
+end)
+
+b:Label("Ctrl + Click",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+
+b:Button("Click TP",function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/BSHwUSkP", true))()
+end)
+b:Label("SAFE SH & JP",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+b:Button("Speed Hack",function()
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+b:Button("Jump Power",function()
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = 70
+end)
+
+local w = library:CreateWindow("Teleport") --Создает окно.
+
+local b = w:CreateFolder("Joldezz Menu") --Создает видвужную папку.
+
+b:Label("BASE TP",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+b:Button("Red Base",function() --Кнопка
+wait(2)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(15,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 7.55638838, 16.4969406, 22.9711952);
+
+wait(10)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(7,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 0.521401405, 66.2835464, 147.900513);
+end)
+
+b:Button("Blue Base",function() --Кнопка
+wait(2)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(15,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 7.55638838, 16.4969406, 22.9711952);
+
+wait(10)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(7,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 0.593742371, 67.0024185, -146.607605);
+end)
+
+b:Label("FLAG TP",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+b:Button("Red Flag",function()
+wait(2)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(15,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 7.55638838, 16.4969406, 22.9711952);
+
+wait(10)
+ local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(7,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 0.241359532, 85.9121628, 91.4853821);
+end)
+
+b:Button("Blue Flag",function()
+wait(2)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(15,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 7.55638838, 16.4969406, 22.9711952);
+wait(10)
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(7,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick();
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp( 0.131771252, 85.9121399, -94.0432129);
+end)
+
+local w = library:CreateWindow("Credits")
+
+local b = w:CreateFolder("Joldezz Menu")
+
+b:Dropdown("Founders",{"Joldezz"},true,function(mob)
+    print(mob) 
+end)
+
+b:Dropdown("Scripters",{"TheSharkke","risq"},true,function(mob)
+    print(mob) 
+end)
+
+b:Dropdown("Beta Testers",{"IPFGaMeR4T","D1proo","xtra"},true,function(mob)
+    print(mob) 
+end)
