@@ -1,0 +1,16 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Joldezz/Joldezz/main/wallyslibary')))() --Библеотека.
+
+local w = library:CreateWindow("Joldezz Menu") --Создает окно.
+
+local b = w:CreateFolder("Hole In The Wall") --Создает видвужную папку.
+
+b:Label("Activate E",{ --Создает текст.
+    TextSize = 25; --Размер текста 
+    TextColor = Color3.fromRGB(255,255,255); --Цвет текста
+    BgColor = Color3.fromRGB(69,69,69); --Цвет заднего фона
+    
+})
+
+b:Button("Noclip",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Joldezz/Joldezz/main/noclip')))()
+end)
