@@ -1,0 +1,26 @@
+local a=game.CoreGui:findFirstChild("FinityUI")if a then a:Destroy()end
+
+local joldezz = loadstring(game:HttpGet("https://pastebin.com/raw/DAtMjnfU"))()
+--Верхнее окошко
+local joldezzWindow = joldezz.new(false)
+joldezzWindow.ChangeToggleKey(Enum.KeyCode.Semicolon)
+--Категории
+local joldezzmain = joldezzWindow:Category("Main")
+--Секторы
+local joldezzmains = joldezzmain:Sector("Main")
+--Лейблы/текста
+joldezzmains:Cheat("Label", "Test")
+--Тоглы
+local joldezzmains = joldezzmains:Cheat("Toggle", "Test", function (State)
+    if State == true then
+        print("test")
+    else
+        print("test")
+    end 
+end, {})
+joldezzmains:Cheat("Slider", "Test", function(Value)
+        print(" Value ")
+end, {min = 10, max = 2500, suffix = " studs"})
+joldezztoolz:Cheat("Button", "Dark Dex", function()
+    print("test")
+end)
